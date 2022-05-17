@@ -24,8 +24,4 @@ services:
 
 networks:
   default:
-  
-  
-sudo docker run -it --name samba -p 139:139 -p 445:445 \
- -v /mnt/data:/mount \
- -d dperson/samba -p
+ 
